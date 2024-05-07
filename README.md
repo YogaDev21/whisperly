@@ -1,33 +1,36 @@
-# My Portfolio
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Introduction
+## Getting Started
 
-Welcome to my personal portfolio website, built with Next.js and Tailwind CSS. This project showcases my skills, experiences, and the work I've done over the years. It serves as a digital representation of my professional journey and the projects I'm proud to have contributed to.
+First, run the development server:
 
-## Features
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Next.js**: This project is built on the powerful React framework, Next.js, which provides server-side rendering, static site generation, and other performance-enhancing features.
-- **Tailwind CSS**: The styling of this website is handled by the Tailwind CSS utility-first CSS framework, allowing for rapid prototyping and a consistent, responsive design.
-- **Project Showcase**: The main focus of this website is to display my portfolio, including detailed information about each project, such as the technologies used, the project's scope, and the role I played.
-- **About Me**: This section provides an overview of my background, skills, and interests, giving visitors a better understanding of who I am and what I can offer.
-- **Contact Form**: Visitors can use the integrated contact form to reach out to me directly, with the submissions being handled securely on the server-side.
-- **Responsive Design**: The website is designed to be fully responsive, ensuring a great user experience across different devices and screen sizes.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deployment
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This portfolio website is currently deployed on Vercel, a popular hosting platform for Next.js applications. You can view the live website at [#](#).
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Technology Stack
+## Learn More
 
-- **Next.js**: A React framework for building server-rendered applications with React, with features like static site generation and API routes.
-- **Tailwind CSS**: A utility-first CSS framework that provides a set of pre-defined classes to style your application.
-- **React**: A JavaScript library for building user interfaces.
-- **Git**: A distributed version control system for tracking changes in source code during software development.
+To learn more about Next.js, take a look at the following resources:
 
-## Contact
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-If you have any questions or would like to discuss potential collaborations, feel free to reach out to me:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- Email: [yogadev2006@gmail.com](mailto:yogadev2006@gmail.com)
-- LinkedIn: [Yoga Dharma](https://www.linkedin.com/in/ida-bagus-yoga-dharma-putra-89166829b/)
-- GitHub: [YogaDev21](https://github.com/YogaDev21)
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
